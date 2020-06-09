@@ -1,16 +1,14 @@
-import '../assets/css/App.css'
-import React, { Component } from 'react'
+import React from "react";
+import "../sass/main.scss";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello, Electron!</h1>
+const App = () => {
+  return (
+    <div className="app">
+      <h1>Hello from Electron!</h1>
 
-        <p>I hope you enjoy using basic-electron-react-boilerplate to start your dev off right!</p>
-      </div>
-    )
-  }
-}
+      <p>React and Sass seem to be working just fine!</p>
+    </div>
+  );
+};
 
-export default App
+export default App;
