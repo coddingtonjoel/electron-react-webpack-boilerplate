@@ -33,6 +33,14 @@ module.exports = {
         include: defaultInclude,
       },
       {
+        test: /\.svg$/,
+        use: ["@svgr/webpack", "url-loader"],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: ["file-loader"],
+      },
+      {
         test: /\.(jpe?g|png|gif)$/,
         use: [{ loader: "file-loader?name=img/[name]__[hash:base64:5].[ext]" }],
         include: defaultInclude,
