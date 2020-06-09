@@ -1,4 +1,4 @@
-## Minimal Electron, React and Webpack boilerplate
+## Minimal Electron, React, and Webpack Boilerplate (with Sass)
 
 Minimal Electron, React, PostCSS and Webpack boilerplate to help you get started with building your next app.
 
